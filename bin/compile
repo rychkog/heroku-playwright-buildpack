@@ -48,7 +48,7 @@ EOF
 	case "$STACK" in
 		"heroku-24")
 	    cat << EOF >>$build_tmpdir/Aptfile
-libvpx7
+libvpx8
 EOF
 	    ;;
 	  *)
